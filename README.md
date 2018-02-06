@@ -103,7 +103,7 @@ output "KONTENA_URI" {
   value = "${module.digitalocean_master.http_url}"
 }
 
-output "KOTNENA_TOKEN" {
+output "KONTENA_TOKEN" {
   value = "${kontena_token.admin.token}"
 }
 ```
